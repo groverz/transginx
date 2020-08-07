@@ -9,8 +9,6 @@ echo "nameserver 127.0.0.1" > /etc/resolv.conf
 iptables -t nat -A OUTPUT -d 10.192.0.0/10 -p tcp -m tcp --tcp-flags FIN,SYN,RST,ACK SYN -j REDIRECT --to-ports 9040
 
 
-/usr/bin/tor -f /etc/tor/torrc
-
 nginx -c /etc/nginx/nginx.conf
 
-tail -f /dev/null
+/usr/bin/tor -f /etc/tor/torrc
