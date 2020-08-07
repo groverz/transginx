@@ -1,5 +1,5 @@
 FROM alpine:edge
-MAINTAINER C4
+MAINTAINER c4
 
 # Install tor
 RUN apk --no-cache --no-progress upgrade && \
