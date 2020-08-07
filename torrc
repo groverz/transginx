@@ -6,8 +6,7 @@ CookieAuthFileGroupReadable 1
 DNSPort 53
 DataDirectory /var/lib/tor
 RunAsDaemon 0
-SocksPort 0.0.0.0:9050 IsolateClientAddr
-TransPort 0.0.0.0:9040 IsolateClientAddr 
+TransPort 0.0.0.0:9040 
 User tor
 VirtualAddrNetworkIPv4 10.192.0.0/10
 
