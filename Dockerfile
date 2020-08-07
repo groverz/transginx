@@ -15,7 +15,7 @@ COPY run.sh /usr/bin
 
 RUN chmod +x /usr/bin/run.sh
 
-EXPOSE 9050 9051 9040 10001
+EXPOSE 9050 9051 9040 5555
 
 
 
