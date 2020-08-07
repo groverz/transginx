@@ -1,0 +1,14 @@
+AutomapHostsOnResolve 1
+ControlPort 9051
+CookieAuthentication 1
+CookieAuthFile /etc/tor/run/control.authcookie 
+CookieAuthFileGroupReadable 1
+DNSPort 53
+DataDirectory /var/lib/tor
+RunAsDaemon 1
+SocksPort 0.0.0.0:9050 IsolateClientAddr
+TransPort 0.0.0.0:9040 IsolateClientAddr 
+User tor
+VirtualAddrNetworkIPv4 10.192.0.0/10
+
+
